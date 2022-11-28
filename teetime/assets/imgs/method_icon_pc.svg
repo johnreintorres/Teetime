@@ -1,0 +1,7 @@
+<svg id="method_icon_pc" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <path id="パス_8" data-name="パス 8" d="M29,0H3A3,3,0,0,0,0,3V29a3,3,0,0,0,3,3H29a3,3,0,0,0,3-3V3A3,3,0,0,0,29,0ZM27.792,2.187A1.187,1.187,0,1,1,26.6,3.375,1.188,1.188,0,0,1,27.792,2.187Zm-4.406,0A1.187,1.187,0,1,1,22.2,3.375,1.188,1.188,0,0,1,23.385,2.187Zm-4.406,0a1.187,1.187,0,1,1-1.187,1.188A1.188,1.188,0,0,1,18.979,2.187ZM29.5,29a.5.5,0,0,1-.5.5H3a.5.5,0,0,1-.5-.5V6.5h27Z" fill="#cea754"/>
+  <rect id="長方形_12" data-name="長方形 12" width="8.252" height="1.5" transform="translate(6.541 12.408)" fill="#cea754"/>
+  <rect id="長方形_13" data-name="長方形 13" width="21.937" height="1.5" transform="translate(5.251 22.156)" fill="#cea754"/>
+  <rect id="長方形_14" data-name="長方形 14" width="6.001" height="6.001" transform="translate(20.13 12.81)" fill="#cea754"/>
+  <path id="パス_9" data-name="パス 9" d="M103.1,273.707h1.011V272H96v1.707h7.1Z" transform="translate(-89.629 -254.834)" fill="#cea754"/>
+</svg>

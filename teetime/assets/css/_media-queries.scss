@@ -1,0 +1,511 @@
+
+@media only screen and (max-width: 1051px){
+    .course-container .course-cont-layout .course-cont{
+        margin: 0px 30px 30px 30px;
+    }
+}
+@media only screen and (max-width: 1008px){
+
+.course-container .kantou .kantou-cont-layout{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+}
+@media only screen and (max-width: 700px){
+    .pc{
+    display: none;
+    }
+
+    .pc{
+    display: none;
+    }
+    .sp{
+    display: block;
+    }
+    .header-sp{
+        background: url(../imgs/MV_sp.jpg);
+        background-position: center;
+        background-size: cover;
+        // height: 100vh;
+        width: 100%;
+        padding-top:46px;
+        // max-height: 100vh;
+        // height: 699px;
+        &-area-sp{
+    
+        }
+        .header-container-sp{
+            .header-cont-layout-sp{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                // padding-right: 23px;
+                img.fv-circle{
+                    padding-bottom: 31.31px;
+                    width: 100%;
+                    max-width: 120.69px;
+                    margin-right: 23px;
+                }
+                img.fv-text{
+                    padding-bottom:20px;
+                    width: 100%;
+                    max-width: 110px;
+                    height: 383px;
+                    margin-right: 23px;
+
+                }
+                img.fv-text-bottom{
+                    padding-bottom:16px;
+                    width: 100%;
+                    max-width: 332px;
+                    margin: auto;
+                }
+            }
+        }
+        }
+
+        
+        .introduction{
+            &-area{
+                padding:40px 10px;
+            }
+            &-container{
+                p{
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: $white;
+                    text-align: center;
+                }
+            }
+        }
+
+
+        .prizes{
+            &-area{
+                padding-bottom: 0px;
+                scroll-margin-top: 0px;
+            }
+            &-container{
+                background: $white;
+                width: 100%;
+                max-width: 960px;
+                border: 6px solid $primary;
+                position: relative;
+                .ribbon{
+                    position: absolute;
+                    width: 100%;
+                    max-width: 135px;
+                }
+                .prizes-title{
+                    padding: 32px 0px 16px 0px;
+                    text-align: center;
+        
+                    h1{
+                        letter-spacing: 0.06px;
+                        color: $primary;
+                        line-height: 32px;
+                        font-size: 26px;
+                        text-align: center;
+                     &::after{
+                         content:'';
+                         width: 172px;
+                         background: $primary;
+                         height: 3px;
+                         display: block;
+                         margin-left: auto;
+                         margin-right: auto;
+                         margin-top: 4px;
+                         margin-bottom:16px;
+        
+                     }
+        
+                    }
+                    span{
+                        color: $tertiary;
+                        line-height: 32px;
+                        font-size: 16px;
+                        text-align: center;
+                     }
+                     h2{
+                        color: $secondary;
+                        line-height: 32px;
+                        letter-spacing: 1px;
+                        font-size: 20px;
+                        text-align: center;
+                        font-weight: 900;
+                     }
+        
+                    .prizes-sub-cont{
+                        padding: 16px 16px 24px 16px;
+                        display: grid;
+                        grid-template-columns: 2fr 2fr;
+                        grid-gap: 16px;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        img{
+                            width: 100%;
+                            max-width: 240px;
+                        }
+                    }
+                    .prizes-footer{
+                        padding:0px 19px;
+                        ul{
+                            color: $tertiary;
+                            list-style: none;
+                            li{
+                                font-size:14px;
+                                line-height: 21px;
+                                text-align: left;
+                                padding: 4px 0px;
+                            }
+                        }
+                    }
+                }
+        
+            }
+        }
+
+        .steps{
+            scroll-margin-top: 0px;
+
+        &-area{
+            padding: 40px 0px 40px 0px;
+        }
+        &-container{
+            padding: 0px 16px;
+            h1{
+                letter-spacing: 0.06px;
+                color: $primary;
+                line-height: 32px;
+                font-size: 26px;
+                text-align: center;
+                &::after{
+                    content:'';
+                    width: 172px;
+                    background: $primary;
+                    height: 3px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 4px;
+                    margin-bottom:34px;
+    
+                }
+            }
+            .steps-cont-layout{
+                display: flex;
+                justify-content: center;
+                grid-gap:60px;
+                flex-wrap: wrap;
+                padding-top: 20px;
+            .steps-sub-content{
+                background: $white;
+                width: 100%;
+                max-width: 450px;
+                border: 6px solid $primary;
+                position: relative;
+                padding: 0px 24px;
+                .title{
+                    background: $primary;
+                    max-width: 100%;
+                    width: 60px;
+                    height: 60px;
+                    text-align: center;
+                    border-radius: 50%;
+                    color: $white;
+                    margin-top: -35px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    span{
+                        color: $white;
+                        // line-height: 32px;
+                        font-size: 13px;
+                        font-weight: 600;
+                    }
+                    h3{
+                        color: $white;
+                        line-height: 20px;
+                        font-size: 24px;
+                        font-weight: 600;
+                    }
+                }
+                .content{
+                    padding-bottom: 32px;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    p{
+                        color: $tertiary;
+                        line-height: 27px;
+                        font-size: 18px;
+                        text-align: left;
+                        padding-top: 24px;
+                        letter-spacing: 0;
+                    }
+                    .step-img{
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        height: 130px;
+                        padding-top: 8px;
+                    img{
+                        width: 100%;
+                        max-width: 199px;
+                    }
+                    .step-2-img{
+                        width: 100%;
+                        max-width: 79px;
+    
+                    }
+                }
+                }
+            }
+        }
+        }
+    }
+
+    .course{
+        scroll-margin-top: 0px;
+
+        &-area{
+            padding: 40px 16px 0px 16px;
+
+        }
+        &-container{
+        
+            h1{
+                letter-spacing: 0.06px;
+                color: $primary;
+                line-height: 32px;
+                font-size: 26px;
+                text-align: center;
+                &::after{
+                    content:'';
+                    width: 172px;
+                    background: $primary;
+                    height: 3px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 4px;
+                    margin-bottom:32px;
+    
+                }
+            }
+        .course-cont-layout{
+            display: flex;
+            // grid-gap:32px;
+            justify-content: center;
+            padding-bottom: 16px;
+            flex-wrap: wrap;
+            .course-cont{
+                width: 100%;
+                max-width: 450px;
+                margin: 0px;
+                margin-bottom: 30px !important;
+                .course-cont-title{
+                    padding: 14px;
+                    background: $primary;
+                    h2{
+                        color: $white;
+                        line-height: 29px;
+                        font-size: 20px;
+                    }
+                }
+                .course-sub-cont{
+                    padding: 12px;
+                    border-top: none !important;
+                    border: 1px solid $primary;
+                    display: flex;
+                    justify-content: space-between;
+                    p{
+                        color: $tertiary;
+                        line-height: 24px;
+                        font-size: 15px;
+                    }
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .kantou{
+            width: 100%;
+            max-width: 960px;
+            margin: auto;
+            padding-bottom: 0px;
+    
+            .kantou-title{
+                h1{
+                    color: $primary;
+                    line-height: 35px;
+                    font-size: 24px;
+                    text-align: left;
+                    &::after{
+                        content:'';
+                        width: 100%;
+                        background: $primary;
+                        height: 3px;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 6px;
+                        margin-bottom:24px;
+        
+                    }
+                }
+            }
+            .kantou-cont-layout{
+                display: flex;
+                // grid-gap: 40px;
+                flex-wrap: wrap;
+                justify-content:center;
+
+                .kantou-cont{
+                    background: $primary;
+                    width: 100%;
+                    max-width: 450px;
+                    margin-bottom: 40px;
+
+                    .kantou-cont-title{
+                        padding: 10px 12px;
+                    h3{
+                        color: $white;
+                        line-height: 30px;
+                        font-size: 20px;
+                    }
+                    span{
+                        color: $white;
+                        line-height: 36px;
+                        font-size: 16px;
+                    }
+                }
+                    img{
+                        width: 100%;
+                        max-width: 450px;
+    
+                    }
+                }
+                
+                .kantou-footer{
+                    display: flex;
+                    justify-content: space-evenly;
+                    padding:12px 0px;
+                    align-items: flex-end;
+    
+                    .divider{
+                        border: 1px solid $white;
+                        border-top: none !important;
+                        border-bottom: none !important;
+                        // padding:0px 40px !important;
+                        padding:0px !important;
+                        width: 100%  !important;
+                    }
+                    a{
+                        
+                        text-decoration: none;
+                    .kantou-footer-cont{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding:0px;
+                        
+                        img{
+                            width: 100%;
+                            max-width: 29.51px;
+                        }
+                        span{
+                            color: $white;
+                            line-height: 28px;
+                            font-size: 14px; 
+                            padding-top: 6px;
+                        }
+                    }
+                }
+                // a:nth-child(2){
+                //     width: 100%;
+                //     max-width: 115px;
+                // }
+            }
+            }
+        }
+        }
+    }
+
+    .guidelines{
+        scroll-margin-top: 0px;
+        background: $primary;
+        position:relative;
+        padding-bottom: 100px;
+        &-area{
+            padding:40px 16px;
+            display: flex;
+            justify-content: center;
+        
+        }
+        &-container{
+            padding: 32px 0px;
+            .guidelines-cont{
+                padding: 0px 12px;
+                .guidelines-title{
+                    h1{
+                        color: $primary;
+                        line-height: 32px;
+                        font-size: 26px;
+                        text-align: center;
+                        &::after{
+                            content:'';
+                            width: 172px;
+                            background: $primary;
+                            height: 3px;
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-top: 6px;
+                            margin-bottom:24px;
+            
+                        }
+                    }
+                }
+                .guidelines-sub-cont{
+                    padding-bottom: 32px;
+                    h2{
+                        color: $primary;
+                        line-height: 35px;
+                        font-size: 18px;
+                    }
+                    p{
+                        color: $tertiary;
+                        line-height: 24px;
+                        font-size: 16px;
+                        padding: 6px 0px;
+                    }
+                }
+            }
+        }
+        .footer-teetime{
+            text-align: center;
+            color: $tertiary;
+            line-height: 24px;
+            font-size: 10px;
+            padding-bottom: 5px;
+        }
+        .page-top-bottom{
+        .page-top{
+            position:absolute;
+            bottom:60px;
+            right: 10px;
+            width : 55px;
+            height : 55px;
+        }
+    }
+    }
+}
+
+@media only screen and (max-width: 415px){
+    .header-sp{
+        // max-height: 100vh;
+        // height: 699px;
+}
+}

@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Teetime</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="assets/css/style-2.css"> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <nav class="nav-area pc">
+        <ul>
+          <li>
+            <a href="#賞品"
+              ><img
+                src="./assets/imgs/prize_icon_pc.svg"
+                class="prize"
+                alt=""
+              />
+              <h2>賞品</h2></a
+            >
+          </li>
+          <li>
+            <a href="#参加方法"
+              ><img
+                src="./assets/imgs/method_icon_pc.svg"
+                class="method"
+                alt=""
+              />
+              <h2>参加方法</h2></a
+            >
+          </li>
+          <li>
+            <a href="#コース"
+              ><img
+                src="./assets/imgs/course_icon_pc.svg"
+                class="course"
+                alt=""
+              />
+              <h2>コース</h2></a
+            >
+          </li>
+          <li>
+            <a href="#実施要項"
+              ><img
+                src="./assets/imgs/outline_icon_pc.svg"
+                class="outline"
+                alt=""
+              />
+              <h2>実施要項</h2></a
+            >
+          </li>
+        </ul>
+      </nav>
+      <nav class="nav-area sp">
+        <ul>
+          <li>
+            <a href="#賞品"
+              ><img
+                src="./assets/imgs/prize_icon_sp.svg"
+                class="prize"
+                alt=""
+              />
+              <h2>賞品</h2></a
+            >
+          </li>
+          <li>
+            <a href="#参加方法"
+              ><img
+                src="./assets/imgs/method_icon_sp.svg"
+                class="method"
+                alt=""
+              />
+              <h2>参加方法</h2></a
+            >
+          </li>
+          <li>
+            <a href="#コース"
+              ><img
+                src="./assets/imgs/course_icon_sp.svg"
+                class="course"
+                alt=""
+              />
+              <h2>コース</h2></a
+            >
+          </li>
+          <li>
+            <a href="#実施要項"
+              ><img
+                src="./assets/imgs/outline_icon_sp.svg"
+                class="outline"
+                alt=""
+              />
+              <h2>実施要項</h2></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <header class="pc">
+      <div class="header">
+        <div class="header-area">
+          <div class="header-container">
+            <div class="header-cont-layout">
+              <div class="header-circle">
+                <!-- <img src="./assets/imgs/fv_left_text.png" alt=""> -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="190"
+                  height="190"
+                  viewBox="0 0 190 190"
+                >
+                  <g transform="translate(-29)">
+                    <g transform="translate(28.941)">
+                      <g transform="translate(0.059)">
+                        <path
+                          d="M190,95A95,95,0,1,1,95,0a95,95,0,0,1,95,95"
+                          fill="#cc445a"
+                        />
+                        <path
+                          d="M96.209,7.5a88.712,88.712,0,0,1,62.729,151.441A88.712,88.712,0,1,1,33.481,33.481,88.131,88.131,0,0,1,96.209,7.5m0-1.5a90.209,90.209,0,1,0,90.209,90.209A90.21,90.21,0,0,0,96.209,6"
+                          transform="translate(-1.209 -1.209)"
+                          fill="rgba(206,167,84,0.4)"
+                        />
+                        <path
+                          d="M180.275,31.482H125.187a2.8,2.8,0,0,0-1.745.6c-3.85,3.087-1.448,5.588-.017,6.64a2.787,2.787,0,0,0,1.654.537h34.583a2.766,2.766,0,0,1,2.03.862,2.484,2.484,0,0,1,.274,3.535,2.733,2.733,0,0,1-2.161,1.011H107.877a2.741,2.741,0,0,0-2.321,1.222,4.52,4.52,0,0,0-.085,4.933,2.79,2.79,0,0,0,2.423,1.382h72.525a2.742,2.742,0,0,1,1.677.552c3.223,2.485,1.44,5.048.152,6.312a2.81,2.81,0,0,1-1.974.807H132.91a2.787,2.787,0,0,0-2.464,1.453c-.018.034-.035.067-.052.1a2.8,2.8,0,0,0,2.548,4H203.9c5.644,0,4.846.8,2.43-4.229a110.541,110.541,0,0,0-24.255-29.073,2.824,2.824,0,0,0-1.8-.645"
+                          transform="translate(-33.122 -6.346)"
+                          fill="rgba(206,167,84,0.4)"
+                        />
+                        <path
+                          d="M37.345,202.52H98.021a2.8,2.8,0,0,0,1.745-.6c3.85-3.087,1.448-5.588.017-6.64a2.787,2.787,0,0,0-1.654-.537H63.546a2.766,2.766,0,0,1-2.03-.862,2.484,2.484,0,0,1-.274-3.535,2.733,2.733,0,0,1,2.16-1.011h51.929a2.741,2.741,0,0,0,2.321-1.222,4.52,4.52,0,0,0,.085-4.933,2.79,2.79,0,0,0-2.423-1.382H42.79a2.742,2.742,0,0,1-1.677-.552c-3.223-2.486-1.44-5.048-.152-6.312a2.81,2.81,0,0,1,1.975-.807H90.3a2.787,2.787,0,0,0,2.464-1.453c.018-.034.035-.067.052-.1a2.8,2.8,0,0,0-2.548-4H19.3c-5.912,0-4.846-.8-2.43,4.229,4.288,10.74,17.35,27.4,18.574,28.956a.685.685,0,0,0,.229.19,4.645,4.645,0,0,0,1.666.572"
+                          transform="translate(-3.013 -43.582)"
+                          fill="rgba(206,167,84,0.4)"
+                        />
+                        <path
+                          d="M64.5,23.141A16.131,16.131,0,0,0,48.242,12.022a16.129,16.129,0,0,0-31.195,0A16.129,16.129,0,0,0,7.408,41.691,16.128,16.128,0,0,0,32.644,60.025,16.128,16.128,0,0,0,57.881,41.691,16.132,16.132,0,0,0,64.5,23.141m-8.3,15.921-2.151,1.381.928,2.381a13.005,13.005,0,0,1-12.1,17.716h0a13.047,13.047,0,0,1-8.244-2.932l-1.978-1.62-1.978,1.62a13.047,13.047,0,0,1-8.244,2.932,13,13,0,0,1-12.1-17.716l.928-2.381L9.095,39.063a13.007,13.007,0,0,1,7.031-23.944c.246,0,.5.008.741.022l2.553.147.648-2.473a13.006,13.006,0,0,1,25.153,0l.649,2.473,2.552-.147c.246-.014.5-.022.742-.022a13.007,13.007,0,0,1,7.03,23.944"
+                          transform="matrix(0.951, -0.309, 0.309, 0.951, 11.933, 51.409)"
+                          fill="rgba(206,167,84,0.4)"
+                        />
+                        <path
+                          d="M23.6,14.7a1.8,1.8,0,0,0-1.851.459L15,12.969l6.744-2.191a1.805,1.805,0,1,0-.492-1.517L14.51,11.453l4.168-5.737a1.806,1.806,0,1,0-1.29-.937l-4.168,5.737V3.424a1.806,1.806,0,1,0-1.6,0v7.091L7.457,4.779a1.805,1.805,0,1,0-1.29.937l4.168,5.737L3.592,9.261A1.807,1.807,0,1,0,3.1,10.778l6.744,2.191L3.1,15.161a1.805,1.805,0,1,0,.493,1.517l6.744-2.191L6.167,20.222a1.807,1.807,0,1,0,1.291.938l4.168-5.737v7.09a1.805,1.805,0,1,0,1.6,0v-7.09l4.168,5.737a1.8,1.8,0,1,0,1.29-.938L14.51,14.486l6.744,2.191A1.8,1.8,0,1,0,23.6,14.7"
+                          transform="matrix(0.951, -0.309, 0.309, 0.951, 34.952, 64.105)"
+                          fill="rgba(206,167,84,0.4)"
+                        />
+                        <path
+                          d="M46.941,16.843A11.74,11.74,0,0,0,35.112,8.75a11.739,11.739,0,0,0-22.7,0A11.739,11.739,0,0,0,5.392,30.344,11.738,11.738,0,0,0,23.759,43.688,11.738,11.738,0,0,0,42.127,30.344a11.742,11.742,0,0,0,4.814-13.5M40.9,28.431l-1.566,1.005.676,1.733A9.465,9.465,0,0,1,31.2,44.064h0a9.5,9.5,0,0,1-6-2.134l-1.44-1.179-1.44,1.179a9.5,9.5,0,0,1-6,2.134A9.465,9.465,0,0,1,7.51,31.169l.676-1.733L6.619,28.431A9.467,9.467,0,0,1,11.737,11c.179,0,.361.006.539.016l1.858.107.472-1.8a9.466,9.466,0,0,1,18.307,0l.473,1.8,1.857-.107c.179-.01.361-.016.54-.016A9.467,9.467,0,0,1,40.9,28.431"
+                          transform="translate(143.229 87.739) rotate(39)"
+                          fill="rgba(206,167,84,0.4)"
+                        />
+                        <path
+                          d="M17.175,10.7a1.313,1.313,0,0,0-1.347.334l-4.909-1.6,4.909-1.595a1.314,1.314,0,1,0-.358-1.1l-4.909,1.6L13.594,4.16a1.314,1.314,0,1,0-.939-.682L9.622,7.653V2.492a1.315,1.315,0,1,0-1.161,0V7.653L5.428,3.478a1.314,1.314,0,1,0-.939.682L7.523,8.336l-4.909-1.6a1.315,1.315,0,1,0-.359,1.1L7.163,9.439l-4.909,1.6a1.314,1.314,0,1,0,.359,1.1l4.909-1.6L4.488,14.718a1.315,1.315,0,1,0,.939.683l3.033-4.175v5.161a1.314,1.314,0,1,0,1.161,0V11.226L12.656,15.4a1.313,1.313,0,1,0,.939-.683l-3.033-4.175,4.909,1.6A1.314,1.314,0,1,0,17.175,10.7"
+                          transform="translate(148.978 109.27) rotate(39)"
+                          fill="rgba(206,167,84,0.4)"
+                        />
+                      </g>
+                    </g>
+                    <text
+                      transform="translate(122 39.5)"
+                      fill="#fff"
+                      font-size="40"
+                      font-family="NotoSerifJP-Bold, Noto Serif JP, serif"
+                      font-weight="700"
+                    >
+                      <tspan x="-60" y="46">参加費</tspan>
+                      <tspan x="-40" y="100">無料</tspan>
+                    </text>
+                  </g>
+                </svg>
+              </div>
+              <div class="header-title">
+                <img class="fv-num" src="./assets/imgs/fv_num_svg.svg" alt="" />
+              </div>
+            </div>
+            <div class="flag-title">
+              <!-- <img src="./assets/imgs/fv_right_text_svg.svg" alt=""> -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="170"
+                height="606"
+                viewBox="0 0 170 606"
+              >
+                <g transform="translate(1 126)">
+                  <g transform="translate(79 -158)">
+                    <rect
+                      width="90"
+                      height="176"
+                      transform="translate(0 32)"
+                      fill="#cc445a"
+                    />
+                    <text
+                      transform="translate(15 44)"
+                      fill="#fff"
+                      font-size="60"
+                      font-family="NotoSerifJP-Bold, Noto Serif JP , serif"
+                      font-weight="700"
+                    >
+                      <tspan x="0" y="69">春</tspan>
+                      <tspan x="0" y="135">の</tspan>
+                    </text>
+                  </g>
+                  <g transform="translate(-1 -58)">
+                    <rect width="90" height="538" fill="#cc445a" />
+                    <text
+                      transform="translate(17 12)"
+                      fill="#fff"
+                      font-size="56"
+                      font-family="NotoSerifJP-Bold, Noto Serif JP, serif"
+                      font-weight="700"
+                    >
+                      <tspan x="0" y="64">ロ</tspan>
+                      <tspan x="0" y="126">ン</tspan>
+                      <tspan x="0" y="188">グ</tspan>
+                      <tspan x="0" y="250">ラ</tspan>
+                      <tspan x="0" y="312">ン</tspan>
+                      <tspan x="0" y="374">コ</tspan>
+                      <tspan x="0" y="436">ン</tspan>
+                      <tspan x="0" y="498">ペ</tspan>
+                    </text>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <header class="sp">
+      <div class="header-sp">
+        <div class="header-area-sp">
+          <div class="header-container-sp">
+            <div class="header-cont-layout-sp">
+              <img
+                class="fv-circle"
+                src="./assets/imgs/fv_left_text.png"
+                alt=""
+              />
+              <img
+                class="fv-text"
+                src="./assets/imgs/fv_right_text.png"
+                alt=""
+              />
+              <img
+                class="fv-text-bottom"
+                src="./assets/imgs/fv_num_sp.png"
+                alt=""
+              />
+            </div>
+            <div class="flag-title"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="introduction">
+        <div class="introduction-area">
+          <div class="introduction-container">
+            <p>
+              参加費無料でだれでも何度でも参加可能！<br />
+              入賞者には豪華賞品プレゼント！<br />
+              WEB会員登録＆スコア提出でどなたでも気軽にご参加頂けます。<br />
+              皆様のご参加をお待ちしております。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="prizes" id="賞品">
+        <div class="prizes-area">
+          <div class="prizes-container">
+            <img class="ribbon" src="./assets/imgs/present_group.png" alt="" />
+            <div class="prizes-title">
+              <h1 class="">賞品紹介</h1>
+              <span>入賞者には</span>
+              <h2>選べるギフトカードプレゼント！</h2>
+              <div class="prizes-sub-cont">
+                <img src="./assets/imgs/prize_01.jpg" alt="" />
+                <img src="./assets/imgs/prize_02.jpg" alt="" />
+                <img src="./assets/imgs/prize_03.jpg" alt="" />
+                <img src="./assets/imgs/prize_04.jpg" alt="" />
+                <img src="./assets/imgs/prize_05.jpg" alt="" />
+                <img src="./assets/imgs/prize_06.jpg" alt="" />
+              </div>
+              <div class="prizes-footer">
+                <ul>
+                  <li>※ 写真はイメージです。</li>
+                  <li>※ 賞品は予告なく変更となる場合がございます。</li>
+                  <li>※ 結果発表後の発送となります。</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="steps" id="参加方法">
+        <div class="steps-area">
+          <div class="steps-container">
+            <h1>参加方法</h1>
+            <div class="steps-cont-layout">
+              <div class="steps-sub-content">
+                <div class="title">
+                  <span>STEP</span>
+                  <h3>1</h3>
+                </div>
+                <div class="content">
+                  <p class="pc">
+                    公式サイトから指定期間のラウンド<br />をご予約&エントリー
+                  </p>
+                  <p class="sp">
+                    公式サイトから指定期間のラウンドをご予約&エントリー
+                  </p>
+                  <div class="step-img">
+                    <img src="./assets/imgs/step1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="steps-sub-content">
+                <div class="title">
+                  <span>STEP</span>
+                  <h3>2</h3>
+                </div>
+                <div class="content">
+                  <p>
+                    期間中にプレー！<br />
+                    WEBでスコアを入力して完了です！
+                  </p>
+                  <div class="step-img">
+                    <img
+                      class="step-2-img"
+                      src="./assets/imgs/step2.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="course" id="コース">
+        <div class="course-area">
+          <div class="course-container">
+            <h1>実施コース</h1>
+            <div class="course-cont-layout">
+              <div class="course-cont">
+                <div class="course-cont-title">
+                  <h2>関東</h2>
+                </div>
+                <a href="#神奈川カントリークラブ"
+                  ><div class="course-sub-cont">
+                    <p>神奈川カントリークラブ（神奈川県）</p>
+                    <img src="./assets/imgs/arrow.png" alt="" /></div
+                ></a>
+                <a href="#一の宮カントリー倶楽部">
+                  <div class="course-sub-cont">
+                    <p>一の宮カントリー倶楽部（千葉県）</p>
+                    <img src="./assets/imgs/arrow.png" alt="" /></div
+                ></a>
+                <a href="#多古カントリークラブ"
+                  ><div class="course-sub-cont">
+                    <p>多古カントリークラブ（千葉県）</p>
+                    <img src="./assets/imgs/arrow.png" alt="" /></div
+                ></a>
+                <a href="#コスモクラシッククラブ">
+                  <div class="course-sub-cont">
+                    <p>コスモクラシッククラブ（千葉県）</p>
+
+                    <img src="./assets/imgs/arrow.png" alt="" /></div
+                ></a>
+                <a href="#新・西山荘カントリー倶楽部"
+                  ><div class="course-sub-cont">
+                    <p>新・西山荘カントリー倶楽部（茨城県）</p>
+
+                    <img src="./assets/imgs/arrow.png" alt="" /></div
+                ></a>
+              </div>
+              <div class="course-cont">
+                <div class="course-cont-title">
+                  <h2>九州</h2>
+                </div>
+                <a href="#ミッションバレーゴルフクラブ"
+                  ><div class="course-sub-cont">
+                    <p>ミッションバレーゴルフクラブ（福岡県）</p>
+
+                    <img src="./assets/imgs/arrow.png" alt="" /></div
+                ></a>
+                <a href="#周防灘カントリークラブ">
+                  <div class="course-sub-cont">
+                    <p>周防灘カントリークラブ（福岡県）</p>
+
+                    <img src="./assets/imgs/arrow.png" alt="" />
+                  </div>
+                </a>
+                <a href="#京都カントリー倶楽部"
+                  ><div class="course-sub-cont">
+                    <p>京都カントリー倶楽部（福岡県）</p>
+
+                    <img src="./assets/imgs/arrow.png" alt="" /></div
+                ></a>
+                <a href="#三重カントリークラブ"
+                  ><div class="course-sub-cont">
+                    <p>三重カントリークラブ（大分県）</p>
+
+                    <img src="./assets/imgs/arrow.png" alt="" /></div
+                ></a>
+              </div>
+            </div>
+            <div class="kantou">
+              <div class="kantou-title">
+                <h1>関東</h1>
+              </div>
+              <div class="kantou-cont-layout">
+                <div class="kantou-cont" id="神奈川カントリークラブ">
+                  <div class="kantou-cont-title">
+                    <h3>神奈川カントリークラブ</h3>
+                    <span>神奈川県/中央自動車道/相模湖IC7km</span>
+                  </div>
+                  <img src="./assets/imgs/kanagawa.jpg" alt="" />
+                  <div class="kantou-footer">
+                    <a
+                      href="http://kanagawacc.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/home.svg" alt="" />
+                        <span>ホームページ</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://firstee.jp/kanagawacc/kanagawacc"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont divider">
+                        <img src="./assets/imgs/reserve.svg" alt="" />
+                        <span>ご予約</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://bit.ly/3Fjxjpf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/score.svg" alt="" />
+                        <span>スコア登録</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="kantou-cont" id="一の宮カントリー倶楽部">
+                  <div class="kantou-cont-title">
+                    <h3>一の宮カントリー倶楽部</h3>
+                    <span>千葉県/九十九里有料道路/終点8km</span>
+                  </div>
+                  <img src="./assets/imgs/ichinomiya.jpg" alt="" />
+                  <div class="kantou-footer">
+                    <a
+                      href="http://www.ichinomiya.co.jp/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/home.svg" alt="" />
+                        <span>ホームページ</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://firstee.jp/ichinomiya-cc/ichinomiya-cc"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont divider">
+                        <img src="./assets/imgs/reserve.svg" alt="" />
+                        <span>ご予約</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://bit.ly/3HPHqnF"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/score.svg" alt="" />
+                        <span>スコア登録</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="kantou-cont" id="多古カントリークラブ">
+                  <div class="kantou-cont-title">
+                    <h3>多古カントリークラブ</h3>
+                    <span>千葉県/東関東自動車道/成田IC12 km</span>
+                  </div>
+                  <img src="./assets/imgs/taco.jpg" alt="" />
+                  <div class="kantou-footer">
+                    <a
+                      href="https://www.unimat-golf.jp/taco-cc/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/home.svg" alt="" />
+                        <span>ホームページ</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://firstee.jp/unimat-golf/taco-cc"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont divider">
+                        <img src="./assets/imgs/reserve.svg" alt="" />
+                        <span>ご予約</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://bit.ly/3G5NcB8"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/score.svg" alt="" />
+                        <span>スコア登録</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="kantou-cont" id="コスモクラシッククラブ">
+                  <div class="kantou-cont-title">
+                    <h3>コスモクラシッククラブ</h3>
+                    <span>千葉県/ 館山自動車道/鋸南保田IC20 km</span>
+                  </div>
+                  <img src="./assets/imgs/cosmoclassic.jpg" alt="" />
+                  <div class="kantou-footer">
+                    <a
+                      href="https://www.cosmoclassic.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/home.svg" alt="" />
+                        <span>ホームページ</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://firstee.jp/cosmoclassic/cosmoclassic"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont divider">
+                        <img src="./assets/imgs/reserve.svg" alt="" />
+                        <span>ご予約</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://bit.ly/3fr3fhj"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/score.svg" alt="" />
+                        <span>スコア登録</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="kantou-cont" id="新・西山荘カントリー倶楽部">
+                  <div class="kantou-cont-title">
+                    <h3>新・西山荘カントリー倶楽部</h3>
+                    <span>茨城県/ 常磐自動車道/日立南太田IC12 km</span>
+                  </div>
+                  <img src="./assets/imgs/shin-seizansou.jpg" alt="" />
+                  <div class="kantou-footer">
+                    <a
+                      href="http://www.unimat-golf.jp/seizansou/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/home.svg" alt="" />
+                        <span>ホームページ</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://firstee.jp/unimat-golf/shin-seizansou"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont divider">
+                        <img src="./assets/imgs/reserve.svg" alt="" />
+                        <span>ご予約</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://bit.ly/3f5MOGF"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/score.svg" alt="" />
+                        <span>スコア登録</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="kantou">
+              <div class="kantou-title">
+                <h1>九州</h1>
+              </div>
+              <div class="kantou-cont-layout">
+                <div class="kantou-cont" id="ミッションバレーゴルフクラブ">
+                  <div class="kantou-cont-title">
+                    <h3>ミッションバレーゴルフクラブ</h3>
+                    <span>福岡県/九州自動車道/若宮IC12 km</span>
+                  </div>
+                  <img src="./assets/imgs/missionvalley.jpg" alt="" />
+                  <div class="kantou-footer">
+                    <a
+                      href="https://www.missionvalley-gc.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/home.svg" alt="" />
+                        <span>ホームページ</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://firstee.jp/missionvalley-gc/missionvalley-gc"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont divider">
+                        <img src="./assets/imgs/reserve.svg" alt="" />
+                        <span>ご予約</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://bit.ly/3n3ylQ0"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/score.svg" alt="" />
+                        <span>スコア登録</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="kantou-cont" id="周防灘カントリークラブ">
+                  <div class="kantou-cont-title">
+                    <h3>周防灘カントリークラブ</h3>
+                    <span>福岡県/東九州自動車道/椎田南IC2 km</span>
+                  </div>
+                  <img src="./assets/imgs/suonada.jpg" alt="" />
+                  <div class="kantou-footer">
+                    <a
+                      href="http://www.suonada-cc.co.jp/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/home.svg" alt="" />
+                        <span>ホームページ</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://firstee.jp/suonada-cc/suonada-cc"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont divider">
+                        <img src="./assets/imgs/reserve.svg" alt="" />
+                        <span>ご予約</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://bit.ly/3HJtuM0"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/score.svg" alt="" />
+                        <span>スコア登録</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="kantou-cont" id="京都カントリー倶楽部">
+                  <div class="kantou-cont-title">
+                    <h3>京都カントリー倶楽部</h3>
+                    <span>福岡県/東九州自動車道/みやこ豊津IC7 km</span>
+                  </div>
+                  <img src="./assets/imgs/miyako.jpg" alt="" />
+                  <div class="kantou-footer">
+                    <a
+                      href="http://miyako-cc.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/home.svg" alt="" />
+                        <span>ホームページ</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://firstee.jp/miyako-cc/miyako-cc"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont divider">
+                        <img src="./assets/imgs/reserve.svg" alt="" />
+                        <span>ご予約</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://bit.ly/3zwSyTi"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/score.svg" alt="" />
+                        <span>スコア登録</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="kantou-cont" id="三重カントリークラブ">
+                  <div class="kantou-cont-title">
+                    <h3>三重カントリークラブ</h3>
+                    <span>大分県/大分自動車道/大分米良IC24 km</span>
+                  </div>
+                  <img src="./assets/imgs/mie.jpg" alt="" />
+                  <div class="kantou-footer">
+                    <a
+                      href="http://mie-cc.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/home.svg" alt="" />
+                        <span>ホームページ</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://firstee.jp/mie-cc/mie-cc"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont divider">
+                        <img src="./assets/imgs/reserve.svg" alt="" />
+                        <span>ご予約</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://bit.ly/32U0FgQ"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div class="kantou-footer-cont">
+                        <img src="./assets/imgs/score.svg" alt="" />
+                        <span>スコア登録</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="guidelines" id="実施要項">
+        <div class="guidelines-area">
+          <div class="guidelines-container">
+            <div class="guidelines-cont">
+              <div class="guidelines-title">
+                <h1>実施要項</h1>
+              </div>
+              <div class="guidelines-sub-cont">
+                <h2>対象期間</h2>
+                <p>2022年3月1日(火)〜5月8日(日)</p>
+              </div>
+              <div class="guidelines-sub-cont">
+                <h2>対象者</h2>
+                <p>・公式ホームページに会員登録されている方</p>
+                <p>・同伴者様もエントリー可能（同伴者様もWEB会員登録必須）</p>
+                <p>・公式サイトの1人予約も対象</p>
+              </div>
+              <div class="guidelines-sub-cont">
+                <h2>参加条件</h2>
+                <p>
+                  ・公式カレンダーからご予約、エントリーしてください。（予約ステップの最後にエントリーフォームがあります）
+                </p>
+                <p>
+                  ・すでに該当期間のご予約をされているお客様は、ログイン後「予約中のプラン」→「オプション予約を追加する」よりエントリーしてくだい。
+                </p>
+                <p>・指定期間内にスコアを提出してください。</p>
+                <p>・複数回参加可能です。</p>
+              </div>
+              <div class="guidelines-sub-cont">
+                <h2>競技方式</h2>
+                <p>ダブルぺリア方式（打数制限無し／上限無し）</p>
+              </div>
+              <div class="guidelines-sub-cont">
+                <h2>結果発表</h2>
+                <p>2022年5月下旬予定</p>
+              </div>
+              <div class="guidelines-sub-cont">
+                <h2>注意事項</h2>
+                <p>・ご本人様のみご応募いただけます。</p>
+                <p>
+                  ・代表者様のメールアドレスで同伴者様のスコアを送らないでください。同一のメールアドレスで複数人の申し込みは無効となります。
+                </p>
+                <p>・同日の複数エントリーは無効となります。</p>
+                <p>・スコア入力に不備があった場合は無効となります。</p>
+                <p>
+                  ・その他事務局が不正と判断した場合はエントリー無効といたします。
+                </p>
+              </div>
+              <div class="guidelines-sub-cont">
+                <h2>お問い合わせ</h2>
+                <p>下記URLよりお願いいたします。</p>
+                <a
+                  href="https://bit.ly/3D5BHY2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><p>https://bit.ly/3D5BHY2</p></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-teetime">
+          <span>©️2022 TeeTime inc.</span>
+        </div>
+        <div class="page-top-bottom" id="page_top">
+          <img class="page-top" src="./assets/imgs/arrow.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
